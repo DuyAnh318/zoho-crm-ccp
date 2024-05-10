@@ -1,0 +1,7 @@
+dev/
+composer.phar
+composer.lock
+vendor/
+.psyshrc
+.idea
+.DS_Store
