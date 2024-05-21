@@ -38,6 +38,10 @@ class FileStore extends AbstractStore
         $this->fileExists = file_exists($this->filePath);
 
         if (! $this->fileExists) {
+            $directory = dirname($this->filePath);
+            if (!file_exists($directory)) {
+                mkdir($directory, 0777, true);
+            }
             return;
         }
 
