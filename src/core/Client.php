@@ -1,6 +1,6 @@
 <?php
 
-namespace Zoho;
+namespace Zoho\Core;
 
 /**
  * Container for Zoho record IDs.

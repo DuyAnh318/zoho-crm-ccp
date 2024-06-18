@@ -31,7 +31,7 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Zoho\\": "src/",
+      "Zoho\\Core\\": "src/core/",
       "Zoho\\Crm\\": "src/crm/",
       "Zoho\\Desk\\": "src/desk/"
     }
