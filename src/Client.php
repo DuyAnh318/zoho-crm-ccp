@@ -14,8 +14,20 @@ class Client
      *
      * @return string
      */
+
+    private $data;
     public function __construct()
     {
-        return "OK";
+        $this->data = [
+            'name' => 'Zoho API Example',
+            'version' => '1.0',
+        ];
+    }
+
+
+    // Hàm để lấy dữ liệu
+    public function getData()
+    {
+        return $this->data;
     }
 }
